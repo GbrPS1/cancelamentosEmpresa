@@ -37,8 +37,8 @@ Os dados foram carregados a partir do arquivo `cancelamentos_sample.csv`, que co
 import pandas as pd
 
 # Carregando os dados
-dados = pd.read_csv('cancelamentos_sample.csv')
-display(dados.head())
+tabela = pd.read_csv('cancelamentos_sample.csv')
+display(tabela)
 ```
 
 ### 2. Visualização de Dados
